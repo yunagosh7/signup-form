@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <form action="">
-      <label for="">First Name</label>
-      <input type="text" />
-
-      <label for="">Lastname</label>
-      <input type="text" />
-
-      <label for="">Email</label>
-      <input type="text" />
-
-      <label for="">Phone number</label>
-      <input type="text" />
-
-      <label for="">Password</label>
-      <input type="text" />
-
-      <label for="">Confirm password</label>
-      <input type="text" />
-    </form>
     
+    <div class="container"><div class="left">
+      <h1>Welcome</h1>
+      <img src="images/fondo.gif" alt="" />
+    </div>
+
+    <div class="right">
+      <p class="p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi natus ab necessitatibus velit laudantium porro explicabo expedita officia, nisi aut?</p>
+      <form class="form" action="">
+
+        <div class="input-container">
+          <label for="username">Username</label>
+          <input id="username" type="text" />
+        </div>
+
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input id="email" type="text" />
+        </div>
+
+        <div class="input-container">
+          <label for="pd">Password</label>
+          <input id="pd" type="password" />
+        </div>
+
+        <div class="input-container">
+          <label for="confPd">Cofirm password</label>
+          <input id="confPd" type="password" />
+        </div>
+
+        <p>Already have an account? <a class="a" href="#">Log in</a></p>
+      </form>
+    </div></div>
+
+    <script src="./scripts/main.js"></script>
   </body>
 </html>
