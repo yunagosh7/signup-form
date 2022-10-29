@@ -1,8 +1,8 @@
 body{
     background-color: #260a1b;
     color: #fff;
-
-    font-family: 'Audiowide', cursive;
+    font-size: 0.9rem;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .container{
@@ -41,7 +41,7 @@ p{
 
 
 h1{
-    font-size: 3rem;
+    font-size: 2.7rem;
     text-align: center;
     color: #fff;
     margin: 10px;
@@ -68,6 +68,6 @@ input{
 }
 
 .a{
-    color: #8a2662;
+    color: #972469;
     text-decoration: none;
 }
